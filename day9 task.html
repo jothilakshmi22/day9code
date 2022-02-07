@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document 1</title>
+    <link rel="stylesheet" href="new.css" />
+   
+      <style>
+      .form-design {
+        width: 490px;
+        height: 290px;
+        border: 2px solid black;
+      }
+      .red {
+        color: white;
+        background-color: red;
+      }
+      .form1{
+border: 1px solid black;
+width: 30%;
+text-align: center;
+background-color: rgb(214, 214, 214);
+
+
+      }
+      .butn1{
+background-color: rgb(11, 189, 11);
+color: black;
+padding: 5px;
+margin-bottom: 15px;
+border-radius: 5px;
+size: 10;
+      }
+      .form2{
+        width: 40%;
+      }
+
+    </style>
+ 
+  </head>
+  <body>
+
+     <!-- 1.fix the bug 
+    <html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div> guvi</div>
+    <div>  lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div> Guvi Geek Network</div>
+</body>
+</html> -->
+
+
+    <!-- 3.create contact us form --> 
+
+<form class="form1" >
+ <label> Contact Us</label><br><br>
+    <input 
+      type="text"
+      name="enter your name"
+      placeholder="enter your name"
+      required
+    /><br /><br />
+    <input
+      type="email"
+      name="enter your email"
+      placeholder="enter your email"
+      required
+    /><br /><br />
+    <input
+      type="tel"
+      name="your mobile number"
+      placeholder="your mobile number"
+      required
+    /><br /><br />
+    <textarea rows="8" placeholder="enter your message"  required> </textarea>
+    <br /><br />
+   <button size="10" class="butn1"> submit</button>
+
+</form>
+<br>
+
+
+        <!-- 4.use certain HTML elements to display the following -->
+    <ul>
+      <li>
+        programming language
+        <ul>
+          <li>
+            JavaScript
+            <ol type="a">
+              <li>Angular</li>
+              <li>React</li>
+              <li>Vue.js</li>
+            </ol>
+          </li>
+          <li>
+            Python
+            <ol type="a">
+              <li>Django</li>
+              <li>Flask Framework</li>
+            </ol>
+          </li>
+          <li>
+            Java
+            <ol type="a">
+              <li>Spring</li>
+              <li>Maven</li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        Database
+        <ul>
+          <li>MySQL</li>
+          <li>Hibernate</li>
+          <li>Cansandra</li>
+        </ul>
+      </li>
+    </ul>
+
+<br><br>
+    <!-- 5.link google in separate new tab -->
+    <a href="http:\\www.google.com" target="_blank"> Go to GooGle</a> <br><br>
+
+
+    <!-- 6.radio button -->
+    <form>
+      <label for="employee type">employee type </label><br />
+      <input type="radio" name="employee type" id="employee type" />
+      <label>Salaried</label><br />
+      <input type="radio" name="employee type" id="employee type" /><label
+        >Own Business</label
+      >
+    </form>
+<br><br>
+
+<!-- 7.design given form -->
+<form  class="form-design">
+  <h2 class="red">Yes! I want to subcribe to Mag-O-Zine</h2>
+  <label for="FirstName">First Name</label>
+  <input type="text" name=" FirstName" id="FirstName" />
+  <label for="LastnName">Last Name</label>
+  <input type="text" name="LastnName" id="LastnName" /><br /><br />
+  <label for="Address">Address</label>
+  <input type="text" name="Address" id="Address" size="50" /><br /><br />
+  <label for="City">City</label>
+  <input type="text" name="City" id="City" size="9" />
+  <label for="State">State</label>
+  <input type="text" name="State" id="State" size="9" />
+  <label for="Zip">Zip</label>
+  <input type="number" name="Zip" id="Zip" size="9" /><br /><br />
+  <b></b>
+    <span
+      ><label for="year">Subscribe for</label>
+
+      <input type="checkbox" name="year" id="year" value="1 year" />
+      <label> 1 year ($19.95) </label>
+      <input type="checkbox" name="year" id="year" value="2year" />
+      <label>2 year ($35.00) </label></span
+    >
+    <br />
+    <label> Send me more information abot</label><br />
+
+    <input type="checkbox" name="year" id="year" value="1 year" checked />
+    <label for="year"> Computer-Zine</label><br />
+    <input type="checkbox" name="year" id="year" value="2year" />
+    <label for="year">Fishing-Zine </label><br />
+    <input type="checkbox" name="year" id="year" value="2year" checked />
+    <label>Cat-O-zine </label><br
+  /></b>
+</form>
+
+
+    <!--8. creat a table -->
+    <h2>Health Chart</h2>
+    <table border="1px" cellpadding="10" cellspacing="0" class="table">
+      <tr>
+        <td rowspan="2">State of Health</td>
+        <td colspan="2">Fasting value</td>
+
+        <td>After Eating</td>
+      </tr>
+      <tr>
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td>2 hours after eating</td>
+      </tr>
+      <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 100</td>
+      </tr>
+      <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140-200</td>
+      </tr>
+      <tr>
+        <td>Diabetes</td>
+        <td>more than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+      </tr>
+    </table>
+    <br />
+
+
+    <!-- 10. highlight the text without css --><br />
+    <mark> <q> HTML & CSS is awesome</q></mark
+    ><br /><br />
+
+
+
+    <!-- 11.create html page using all inputs element -->
+
+    <form class="form2">
+      <fieldset>
+        <legend style="font-size: 50px">Forms</legend>
+        <label for="name">Enter your name</label>
+        <input type="text" name="your name" id="name" /><br /><br />
+        <label for="age"> Enter your age</label>
+        <input type="number" name="age" id="age" /><br /><br />
+        <label for="phone"> Enter your phone number</label>
+        <input type="number" name="phone number" id="phone" /><br /><br />
+        <label for="email"> Enter your email id</label>
+        <input type="email" name="your email" id="email" /><br /><br />
+        <label for="Password"> Enter your password</label>
+        <input type="password" name="password" id="password" /><br /><br />
+        <label for="DOB"> Enter your DOB</label>
+        <input type="date" name="your DOB" id="DOB" /><br /><br />
+        <label for="time"> Enter the time</label>
+        <input type="time" name="time" id="time" /><br /><br />
+        <label for="week"> Enter the week</label>
+        <input type="week" name="enter the week" id="week" /><br /><br />
+        <label for="month">Enter the month</label>
+        <input type="month" name="month" id="month" /><br /><br />
+        <label for="time-local"> Enter the datetime local</label>
+        <input
+          type="datetime-local"
+          name="date time local"
+          id="time local"
+        /><br /><br />
+        <label for="pickcolor"> Pick your color</label>
+        <input type="color" name="color" id="color" /><br /><br />
+        <label for="day"> Enter the day</label>
+        <input type="day" name="day" id="day" /><br /><br />
+        <label for="telphone number"> Enter your tel phone number</label>
+        <input type="tel" name="telphone" id="telphone number" /><br /><br />
+        <label for="url link"> Enter the url link</label>
+        <input type="url" name="url link" id="url link" /><br /><br />
+        <label for="reset all"> click here to reset</label>
+        <input type="reset" name="reset all" id="reset all" /><br /><br />
+
+        <input
+          type="submit"
+          name="submit"
+          id="submit"
+          value="submit"
+        /><br /><br />
+        <label for="search"> search here</label>
+        <input type="search" name="search" id="search" /><br /><br />
+        <label for="upload file"> upload your file</label>
+        <input type="file" name="upload file" id="upload file" /><br /><br />
+        <label for="range"> range</label>
+        <input type="range" name="range" id="range" /><br /><br />
+        <label for=" gender"> select your gender</label><br /><br />
+        <input type="radio" name="gender" id="gender" value="male" />
+        <label> Male </label><br /><br />
+        <input type="radio" name="gender" id="gender" value="female" />
+        <label> Female </label><br /><br />
+        <input type="radio" name="gender" id="gender" value="others" />
+        <label> Others </label><br /><br />
+        <label for="language"> known language</label><br /><br />
+        <input
+          type="checkbox"
+          name="language"
+          id="language"
+          value="Tamil"
+          checked
+        />
+        <label> Tamil </label><br /><br />
+        <input type="checkbox" name="language" id="language" value="English" />
+        <label> English </label><br /><br />
+        <input type="checkbox" name="language" id="language" value="hindi" />
+        <label> Hindi</label><br /><br />
+        <input
+          type="checkbox"
+          name="language"
+          id="language"
+          value="Malayalam"
+        />
+        <label> Malayalam </label><br /><br />
+        <select>
+          <option>select you fav color</option>
+          <option value="blue">blue</option>
+          <option value="pink">pink</option>
+          <option value="black">black</option>
+          <option value="yellow">yellow</option>
+          <option value="red">red</option>
+        </select>
+        <br /><br />
+        <select multiple>
+          <option>select you fav color</option>
+          <option value="blue">blue</option>
+          <option value="pink">pink</option>
+          <option value="black">black</option>
+          <option value="yellow">yellow</option>
+          <option value="red">red</option>
+        </select>
+      </fieldset>
+    </form>
+  </body>
+</html>
